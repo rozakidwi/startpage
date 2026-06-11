@@ -7,6 +7,32 @@
 	src: url('fonts/IosevkaEtoile-Regular.woff2') format('woff2');
 }
 
+:root {
+	--bg: #eff1f5;
+	--fg: #4c4f69;
+	--blue: #1e66f5;
+	--green: #40a02b;
+}
+
 body {
 	font-family: 'Iosevka Etoile Web Regular', serif;
+	background-color: var(--bg);
+}
+
+ul {
+	color: var(--fg);
+}
+
+a:link, a:visited {
+	color: var(--blue);
+}
+
+a:hover {
+	background-color: var(--blue);
+	color: var(--bg);
+}
+
+a:active {
+	background-color: var(--green);
+	color: var(--bg);
 }
