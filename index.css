@@ -1,12 +1,3 @@
-@font-face {
-	font-family: 'Iosevka Etoile Web Regular';
-	font-display: swap;
-	font-weight: 400;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('fonts/IosevkaEtoile-Regular.woff2') format('woff2');
-}
-
 :root {
 	--bg: #eff1f5;
 	--fg: #4c4f69;
@@ -15,7 +6,7 @@
 }
 
 body {
-	font-family: 'Iosevka Etoile Web Regular', serif;
+	font-family: serif;
 	background-color: var(--bg);
 }
 
